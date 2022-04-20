@@ -1,19 +1,9 @@
-
-// let banco = [
-//     {'tarefa' : 'teste', 'status' : 'checked'},
-//     {'tarefa' : 'testet', 'status' : ''},
-//     {'tarefa' : 'testet', 'status' : ''},
-    
-// ];
-
 const getBanco = () => JSON.parse(localStorage.getItem('todoList')) ?? [];
 const setBanco = (banco) => localStorage.setItem('todoList', JSON.stringify(banco))
  
 function create(tarefa, status, indice) {
-//    var hours = document.createElement('p')
     var div = document.createElement('label')
     div.classList.add('todo_item')
-    // hours.classList.add('horas')
     div.innerHTML =
 
         `
