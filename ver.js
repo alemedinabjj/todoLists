@@ -27,16 +27,16 @@ const atualizarRel = () => {
         case 6:
             diasemana.innerHTML = 'SAB'
             break
-        case 7:
+        case 0:
             diasemana.innerHTML = 'DOM'
             break
-        case 8: 
+        case 1: 
             diasemana.innerHTML = 'SEG'
             break
-        case 9:
+        case 2:
             diasemana.innerHTML = 'TER'
             break
-        case 10:
+        case 3:
             diasemana.innerHTML = 'QUA'
             break
     }
