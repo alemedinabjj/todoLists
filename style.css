@@ -4,20 +4,52 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     background: url(./img/new.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-@media (min-width: 781px) and (max-width: 1300px) {
+#ntf {
+    color: wheat;
+}
+
+@media (min-width: 780px) and (max-width: 1300px) {
     body {
         background-size: auto;
     }
+
+  
+}
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.relogio {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin: 0px 0px 30px;
+}
+.hora {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    position: absolute;
+    top: 4px;
+    width: 100%;
+    right: -0.5em;
+    font-style: italic;
+    color: white;
 }
 @media (max-width: 780px) {
     body {
         background: url(./img/bgcel.jpg);
         background-size: auto;
         background-repeat: no-repeat;
-        
+
+    }
+    html {
+        background: url(./img/bgcel.jpg);
     }
 }
 
@@ -46,13 +78,13 @@ body {
 
 h1 {
     background: linear-gradient(45deg, #a67767, transparent 220px);
-    padding: 0px 10px 0px 10px;
+ 
     border-radius: 10px;
     box-shadow: 0.7px 1px 5px rgb(0 0 0 / 48%);
     color: aliceblue;
     text-align: center;
     width: 300px;
-    margin: 2em auto;
+    
 }
 
 .newtarefa {
@@ -66,7 +98,7 @@ h1 {
 
 .todo_item {
     width: 90%;
-    height: 50px;
+    height: 90px;
     background: #a27a7000;
     margin: 0.5em;
     backdrop-filter: blur(80px);
@@ -155,27 +187,33 @@ div {
     cursor: pointer;
     transition: .2s ease;
 }
+
 .btn:hover {
     transform: scale(1.08);
 
 }
+
 .novatarefa input:focus {
     border: 1px solid #333
 }
+
 img {
     width: 1.5em;
     height: 1.5em;
 }
+
 #list input[type="checkbox"] {
     width: 1.6em;
     height: 1.6em;
     margin-right: 15px;
 }
+
 footer {
     text-align: center;
     font-style: italic;
     color: aliceblue;
 }
+
 @media (max-width: 1300px) {
     .list {
         width: 90%;
