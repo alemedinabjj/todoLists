@@ -40,7 +40,7 @@ body {
 .semana {
     color: white;
     font-size: 1.2em;
-    margin: 0px 0px 30px;
+    margin: 1px;
     font-weight: bold;
 }
 .hora {
@@ -89,7 +89,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
+.h1primary {
     background: linear-gradient(45deg, #a67767, transparent 220px);
  
     border-radius: 10px;
@@ -140,13 +140,18 @@ h1 {
 }
 
 
-div {
-    font-size: 1.1em;
-    display: flex;
-    justify-content: start;
-    width: 100%;
+#wrapper {
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
 }
-
+#wrapper h1, h2 {
+    margin: 0;
+    font-size: .9em;
+}
+#wrapper h2 {
+    margin: 0px 0px 30px;
+}
 
 .novatarefa {
     width: 100%;
